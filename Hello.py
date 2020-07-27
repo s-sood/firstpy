@@ -89,6 +89,24 @@ total_sales = str(total_sales)
 
 print("This week\'s total sales: " + total_sales)
 
+# String Methods
+print("sonal sood".title())
+
+print("it is a beautiful day".islower())
+
+# Practice format()
+
+kind_str= "Kind {} still {}"
+print(kind_str.format("souls", "exist"))
+
+# Practice split()
+
+new_str="love and kindness."
+print(new_str.split())
+print(new_str.split(' ', 2))
+print(new_str.split("."))
+
+
 
 
 
