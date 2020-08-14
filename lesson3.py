@@ -42,6 +42,25 @@ names = ["Carol", "Albert", "Ben", "Donna"]
 names.append("Eugenia")
 print(sorted(names))
 
+print(" & ".join(sorted(names)))
+
+# Quiz
+
+arr = ['a', 'b', 'c', 'd', 'e', 'f', 'g']
+print(arr[0])
+
+# Print ['c', 'd', 'e', 'f']
+
+print(arr[2:6])
+
+# Print ['a', 'b', 'c']
+
+print(arr[:3])
+
+# Print ['e', 'f', 'g']
+
+print(arr[4:])
+
 
 
 
